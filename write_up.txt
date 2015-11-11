@@ -1,0 +1,7 @@
+I implemented a texture mapped Klein Bottle with per vertex normals and specularlighting. 
+
+A klein bottle is a closed bounded manifold with no interior or exterior. It can be thought of as an extended Mobius strip. 
+
+My approach to the 3d rotations was using the RotateAroundAxisAgain function, with a modification to also rotate some vectors that I made in the oppposite direction. These vectors allow me to keep the rotations that you input be consistent with what you want. 
+
+
